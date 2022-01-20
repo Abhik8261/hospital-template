@@ -127,6 +127,7 @@ flex: wrap;
     display: flex;
     justify-content: center;
     font-size: xx-large;
+    color: dimgrey;
 }
 #para{
     margin: 0px;
@@ -134,6 +135,7 @@ flex: wrap;
     text-align: center;
     font-size: 31px;
     font-weight: lighter;
+    color: gray;
     
 }
 .container3{
@@ -162,7 +164,8 @@ float: right;
    text-align: justify;
 }
 #neuro{
-    padding:0px 24px
+    padding:0px 24px;
+    color : cornflowerblue;
 }
  .contain img{
     width: 88px;
@@ -175,19 +178,23 @@ float: right;
 #sample{
     margin-top: 51px;
     margin-left: -199px;
+    color: cadetblue;
 }
 #sample1{
     margin-top: 90px;
     margin-left: -418px;
+    color: cadetblue;
     
 }
 #sample2{
     margin-top: 51px;
     margin-left:  -233px;
+    color: cadetblue;
 }
 #sample3{
     margin-top: 70px;
     margin-left: -411px;
+    color: cadetblue;
     
 }
 .container4{
@@ -225,27 +232,37 @@ float: right;
     font-size: 20px;
 }
 .container5{
-    border: 2px solid red;
+   
     display: flex;
-    background: url(../images/bp.jpg)no-repeat;
+    /* background: url(../images/bp.jpg)no-repeat;
     background-position: left;
     background-position-y: 30px;
-    background-size: contain;
+    background-size: contain; */
     
     
 }
 .container5 h3{
     display: flex;
     justify-content: center;
+    font-size: xxx-large;
 }
 .container5-para{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 400px;
-    
+    margin-top: 0vh;
     font-size: 20px;
 
+}
+#for{
+    margin: 0px 0px;
+    font-size: larger;
+}
+#bp{
+    width: 100%;
+    height: 45vh;
+    margin: auto;
+    margin-top: 26vh;
 }
 .container6{
    
